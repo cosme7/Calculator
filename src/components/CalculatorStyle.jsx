@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.section`
     width: 100%;
     height: 100%;
-    padding: 1rem 0.2rem;
+    padding: 4rem 0.2rem;
 
     div{
         max-width: 500px;
@@ -41,7 +41,7 @@ export const GreyBtn = styled.button`
     transition: 0.2s all;
 
     :where(:hover, :focus-visible){
-        transform: scale(0.95);
+        transform: scale(0.90);
         background-color: var(--bg-white);
         font-weight: var(--fw-500);
     }
@@ -60,7 +60,7 @@ export const NumberBtn = styled.button`
     transition: 200ms ease-in;
 
     :where(:hover, :focus){
-        transform: scale(0.95);
+        transform: scale(0.90);
         font-weight: var(--fw-500);
         background-color: var(--bg-white);
         color: var(--clr-black);
@@ -81,7 +81,7 @@ export const NumberZero = styled.button`
     transition: 0.2s all;
 
     :where(:hover, :focus){
-        transform: scale(0.95);
+        transform: scale(0.90);
         font-weight: var(--fw-500);
         background-color: var(--bg-white);
         color: var(--clr-black);
@@ -101,7 +101,7 @@ export const SignBtn = styled.button`
     transition: 0.2s all;
 
     :where(:hover, :focus){
-        transform: scale(0.95);
+        transform: scale(0.90);
         font-weight: var(--fw-500);
         background-color: var(--bg-white);
         color: var(--clr-orange);
@@ -122,7 +122,7 @@ export const ResultBtn = styled.button`
     transition: 0.1s all;
 
     :where(:hover, :focus){
-        transform: scale(0.95);
+        transform: scale(0.90);
         font-weight: var(--fw-500);
         background-color: var(--bg-white);
         color: var(--clr-orange);
